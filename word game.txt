@@ -1,0 +1,45 @@
+#include <iostream>
+#include <string>
+ 
+using namespace std;
+ 
+int main() {
+    string word1 = "apple", word2 = "laptop", word3="generation", word4="conundrum";
+    string guess1,guess2,guess3,guess4;
+    bb:
+cout << "Guess the word:"<< endl;;
+ 
+cout << "easy:A red,green or yellow sweet fruit."<< endl;
+cin >> guess1;
+if(guess1==word1)
+{
+    cout << "medium:A device, often refered as a *portable computer*" <<endl;
+    cin >> guess2;
+    if(guess2==word2)
+    {
+        cout << "hard: All of the people born and living at about the same time."<< endl;
+        cin >> guess3;
+        if(guess3==word3)
+        {
+            cout << "extreme: A confusing and difficult problem or question." << endl;
+            cin >> guess4;
+            if (guess4==word4)
+            {
+                cout << "Well done ! "<< endl << "The code is debugthugs!";
+            }
+            else {
+                goto bb;
+               }
+        }
+        else {
+            goto bb;
+             }
+    else{
+        goto bb;
+         }
+}
+    else {
+        goto bb;
+       }
+
+}
