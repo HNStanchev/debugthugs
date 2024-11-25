@@ -1,5 +1,5 @@
 <p align = "center">
-  <img src="https://github.com/codingburgas/2223-9th-grade-sprint-math-games-bell-peppers/blob/master/Documentation/Bell%20peppers'%20logo.svg" width="425" text-align="center">
+  <img src="OneDrive/Работен плот/image_2024-11-25_221010555.png">
 </p>
 <div align = "center">
  <img src = "https://img.shields.io/github/repo-size/codingburgas/2223-9th-grade-sprint-math-games-bell-peppers?style=for-the-badge">
